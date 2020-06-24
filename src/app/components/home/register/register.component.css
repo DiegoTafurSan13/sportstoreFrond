@@ -1,0 +1,27 @@
+.form__login__card{
+    width: 100%;
+}
+
+.login__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 20px 0;
+}
+
+.login-header__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.5);
+}
+
+.btn__logo{
+    height: 30px;
+    margin: 0 10px 0 0;
+}

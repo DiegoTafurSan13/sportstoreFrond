@@ -1,0 +1,58 @@
+<div class="form__login__card">
+    <div class="login__header">
+        <div class="login-header__title">
+            <i class="fas fa-store"></i>
+            <h5 class="mb-0 ml-2">VineShop</h5>
+        </div>
+        <div class="login-header__subtitle">
+            <span class="fs-18">Please login to your accounts</span>
+        </div>
+    </div>
+    <div class="card-body login__content m-3">
+        <form autocomplete="off">
+            <div>
+                <div class="form-group row ">
+
+                    <div class="col ">
+                        <input class="form-control" type="text" placeholder="User,phone or email">
+                    </div>
+                </div>
+                <div class="form-group row ">
+
+                    <div class="col">
+                        <input class="form-control" type="password" value="password">
+                    </div>
+                </div>
+                <div class="form-check fs-12 text-right ">
+
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <a href="#">Remenber?</a>
+                </div>
+                <div class="row flex-c mt-4">
+                    <button class="btn btn-primary col-11">Login</button>
+                </div>
+                <div class="row">
+                    <hr class="col-3 border">
+                    <span class="col-2">o</span>
+                    <hr class="col-3 border">
+                </div>
+                <!-- <button class=" btn row border-button">
+                    <img src="assets/img/icons/google.svg" class="col-3 btn__logo">
+                    <span class="col btn__text">Google</span>
+                </button> -->
+                <div class="row flex-c mt-4">
+                    <button class="btn border-button col-11">
+                        <img src="assets/img/icons/google.svg" class="btn__logo">
+                        <span class="btn__text">Google</span>
+                    </button>
+
+                </div>
+
+                <div class="row">
+                    <span class="col mt-4 text-left">Don't have a account? <a [routerLink]="['/home/register']" >Sign Up</a></span>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

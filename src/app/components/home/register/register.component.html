@@ -1,0 +1,63 @@
+<div class="form__login__card">
+    <div class="login__header">
+        <div class="login-header__title">
+            <i class="fas fa-store"></i>
+            <h5 class="mb-0 ml-2">VineShop</h5>
+        </div>
+        <div class="login-header__subtitle">
+            <span class="fs-18">Create Account</span>
+        </div>
+    </div>
+    <div class="card-body login__content m-3">
+        <form autocomplete="off">
+            <div>
+                <div class="form-group row ">
+
+                    <div class="col-6 ">
+                        <input class="form-control" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-6 ">
+                        <input class="form-control" type="text" placeholder="LastName">
+                    </div>
+                </div>
+                <div class="form-group row ">
+
+                    <div class="col">
+                        <input class="form-control" type="text" placeholder="Example@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group row ">
+
+                    <div class="col">
+                        <input class="form-control" type="number" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="form-group row ">
+
+                    <div class="col">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group row ">
+
+                    <div class="col">
+                        <input class="form-control" type="password" placeholder="Re-Password">
+                    </div>
+                </div>
+                <div class="form-check fs-12 text-right ">
+
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <a href="#">Remenber?</a>
+                </div>
+                <div class="row flex-c mt-4">
+                    <button class="btn btn-primary col-11">Register</button>
+                </div>
+
+                <div class="row">
+                    <span class="col mt-4 text-left">Already have account? <a [routerLink]="['/home/login']">Login</a></span>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
